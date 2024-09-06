@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            margin: 0;padding: 0;
+            background-image:linear-gradient(rgb(250, 9, 129), rgb(174, 44, 174)) ;
+        }
+        .container{
+            box-shadow: 0 0 5px;
+            background-color: white;
+            padding: 2px;
+            margin: 8% auto ;
+            text-align: center;
+            height: 400px;
+            width: 400px;
+            
+
+        }
+        #login{ background-image:linear-gradient(rgb(252, 116, 184),rgb(247, 37, 247)) ;     
+        color: white; height: 30px;
+      }
+      #signup{ height: 30px;}
+      #email{
+        height: 25px;
+        
+      }
+      #password{
+        height: 25px;
+      }
+      p{
+        color: rgb(242, 17, 92);
+      }
+      p2{
+        color: rgb(237, 18, 91);
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>login form</h1>
+        <form action="login">
+            <input type="text" class="login" id="login" placeholder="login">
+          <input type="text" class="signup" id="signup" placeholder="signup"><br><br>
+            <input type="email" class="email" id="email" placeholder="email adddress"><br><br>
+            <input type="password" class="password" id="password" placeholder="password"><br>
+            <p>forgot password?</p>
+            <input type="text" class="login" id="login" placeholder="login"><br><br>
+            <p1>not a member?<p2>signup now</p2></p1>
+
+        </form>
+    </div>
+</body>
+</html>
